@@ -45,43 +45,42 @@ window.PORTFOLIO = {
     {
       group: "Front End",
       items: [
-        { name: "JavaScript", level: 85 },
-        { name: "HTML & CSS / Responsive", level: 90 },
-        { name: "SPA & Three.js", level: 70 },
-        { name: "PHP & Laravel", level: 75 },
+        { name: "JavaScript", level: 75 },
+        { name: "HTML & CSS / Responsive", level: 83 },
+        { name: "SPA & Three.js", level: 50 },
+        { name: "PHP & Laravel", level: 38 },
       ],
     },
     {
       group: "Back End & Data",
       items: [
-        { name: "Python", level: 85 },
+        { name: "Python", level: 82 },
         { name: "FastAPI / REST API", level: 80 },
-        { name: "Firebase Auth & Firestore", level: 80 },
-        { name: "MySQL", level: 75 },
+        { name: "Firebase Auth & Firestore", level: 85 },
+        { name: "MySQL", level: 65 },
       ],
     },
     {
       group: "Embedded & IoT",
       items: [
-        { name: "ESP32", level: 80 },
-        { name: "MicroPython", level: 80 },
-        { name: "Bluetooth Low Energy (BLE)", level: 75 },
+        { name: "ESP32", level: 87 },
+        { name: "Arduino IDE", level: 88 },
+        { name: "MicroPython", level: 84 },
+        { name: "Bluetooth Low Energy (BLE)", level: 60 },
       ],
     },
     {
       group: "AI",
       items: [
-        { name: "OpenAI / Gemini API", level: 80 },
+        { name: "Gemini API", level: 86 },
         { name: "YOLO / OpenCV", level: 65 },
       ],
     },
     {
       group: "Mechatronics",
       items: [
-        { name: "AutoCAD", level: 70 },
-        { name: "PLC / Industrial Automation", level: 65 },
-        { name: "Pneumatics", level: 65 },
-        { name: "Industrial Robotics", level: 65 },
+        { name: "AutoCAD", level: 55 },
+        { name: "PLC / Industrial Automation", level: 45 },
       ],
     },
   ],
@@ -181,7 +180,7 @@ window.PORTFOLIO = {
         "Started refactoring a monolithic file into 9 CSS files and separate JavaScript modules",
       ],
       tech: ["JavaScript", "HTML/CSS", "Three.js", "Firebase Auth", "Firestore", "Python", "FastAPI", "MicroPython", "ESP32", "Web Bluetooth", "OpenAI/Gemini"],
-      image: "assets/robolearn.png",
+      image: "assets/projects/robolearn.png",
       imageFit: "icon",                  // "icon" = small centred logo; leave out for full-size screenshots
       gallery: [
         "assets/projects/robolearn/robolearn-login.png",
@@ -202,10 +201,25 @@ window.PORTFOLIO = {
       description:
         "A hackathon project at UNY. I handle the software and hardware integration: the ESP32-based control system and real-time data transmission to a web dashboard.",
       highlights: ["ESP32 control system", "Real-time telemetry to a web dashboard"],
-      tech: ["ESP32", "IoT", "Web Dashboard"],
-      image: "",
+      tech: ["ESP32", "IoT", "Web Dashboard", "Yolo / OpenCV", "Python", "FastAPI", "Firebase Auth", "Firestore"],
+      image: "assets/projects/inspect.jpeg",
       gallery: [],
       links: { demo: "", repo: "" },
+    },
+    {
+      title: "TASK-A",
+      date: "2026-09-28",            // newest date becomes the "Latest project" spotlight
+      period: "Sep — Nov 2026",
+      status: "finished",            // or "in-progress"
+      category: "App",               // becomes a filter button automatically
+      summary: "Design and Development of a Web-based time management to support student study habits.",
+      description: "Development of a Web-based time management to support student study habits. Using the Pomodoro technique, TASK-A helps students manage their time effectively and improve their study habits.",
+      highlights: ["Pomodoro technique", "Priority matrix and agenda logging", "AI Study Reviewer powered by Gemini API", "Access to psychological consultation"],
+      tech: ["HTML", "Firebase", "JavaScript","CSS","Gemini API"],   // searchable
+      image: "assets/projects/task-a.png",
+      imageFit: "icon",
+      gallery: ["assets/projects/task-a/task-a-dashboard.png", "assets/projects/task-a/task-a-jadwal.png", "assets/projects/task-a/task-a-focus.png", "assets/projects/task-a/task-a-review.png", "assets/projects/task-a/task-a-reward.png", "assets/projects/task-a/task-a-access.png", "assets/projects/task-a/task-a-team.png"],
+      links: { demo: "https://task-a-41cf9.web.app", repo: "" },
     },
     {
       title: "Absensi HR",
@@ -251,7 +265,7 @@ window.PORTFOLIO = {
         "A portfolio framework where all content lives in one data file. Features project filtering, search, detail popups, theme switching, and scroll animations.",
       highlights: ["No build step", "Light & dark theme", "Fully responsive"],
       tech: ["HTML", "CSS", "JavaScript"],
-      image: "assets/portofolio.png",
+      image: "assets/projects/portofolio.png",
       gallery: [],
       links: { demo: "", repo: "https://github.com/RetDaffarel" },
     },
